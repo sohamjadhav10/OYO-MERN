@@ -1,0 +1,69 @@
+
+.container-main {
+    background-color: rgb(77, 78, 79);
+    height: 250px;
+    width: 100%;
+    
+}
+.search-row {
+    display: flex;
+    border-radius: 10px;
+    height: 100px;
+    justify-content: center;
+}
+.sr1{
+    height: 100px;
+   width: 400px;
+}
+.sr2{
+    height: 100px;
+}
+.sr3{
+    height: 100px;
+}
+.sr4{
+    height: 100px;
+}
+.btn1 {
+    background-color: #ca1818;
+    color: white;
+}
+.btn {
+    background-color: #27ca18;
+    color: white;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px;
+}
+
+.deals-card {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.deals-card .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffecec;
+    border-radius: 50%;
+}
+.deals-card .icon img {
+    width: 30px;
+    height: 30px;
+}
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.ov{
+    padding-top: 60px; color: white; text-align: center; size: 100px;
+}
+.im{
+    width: 90%; cursor: pointer;
+}
