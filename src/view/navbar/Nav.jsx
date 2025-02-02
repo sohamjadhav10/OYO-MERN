@@ -2,12 +2,14 @@ import React from "react";
 import img1 from "./oyo.png";
 import "./Nav.css";
 import Nav1 from "./Nav1";
+import { Link } from "react-router-dom";
+
 const Nav = () => {
     return(
-        <div>
+        <div className="na1">
             <div className="navbar navbar-expand-lg n1" >
                 <div className="container-fluid cf">
-                <a className="navbar-brand" href="#"><img src={img1} alt="oyo" className="imp"/></a>
+                <div className="navbar-brand"><Link to="/"><img src={img1} alt="oyo" className="imp"/></Link></div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -64,6 +66,7 @@ const Nav = () => {
                     </div>
                     </div>
                     <div className="nav6 nav66">
+                    <Link to="/login">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
@@ -71,8 +74,8 @@ const Nav = () => {
                         </svg>
                     </div>
                     <div>
-                        <h6>Login/Signup</h6>
-                    </div>
+                        <h6>Login/Signup</h6>  
+                    </div></Link>
                     </div>
                 </div>
                 </div>

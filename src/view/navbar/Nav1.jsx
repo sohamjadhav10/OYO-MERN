@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Nav1 = () => {
     return (
-        <div>
+        <div className='nv'>
             <ul className="nav justify-content-center njc" >
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pune</a>
         <ul className="dropdown-menu">
           <b className='pl'>Popular Localities</b>
-          <li><a className="dropdown-item" href="#">Action</a></li>
+          <li className="dropdown-item"><Link to="/pune">Pune</Link></li>
         </ul>
       </li>
 

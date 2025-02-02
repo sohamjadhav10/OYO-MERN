@@ -1,9 +1,13 @@
 import React from 'react';
+
 import './Body.css';
 import im1 from './1.avif';
 import im2 from './2.avif';
 import hd from './hd.jpg';
 import im3 from './image.png';
+import Footer from '../footer/Footer';
+
+
 
 const Body = () => {
     return (
@@ -73,6 +77,7 @@ const Body = () => {
  <div className="map-container">
   <img src={im3} className="img-fluid" alt="map"/> 
  </div>
+       <Footer/>
         </div>
     );
 };

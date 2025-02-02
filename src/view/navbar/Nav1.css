@@ -1,5 +1,10 @@
+.nv{
+    position: fixed;
+}
 .njc{
-    gap: 60px; background-color: rgb(245, 245, 245);
+    gap: 60px; 
+    background-color: rgb(245, 245, 245);
+    
 }
 .pl{
     margin-left: 5px;
