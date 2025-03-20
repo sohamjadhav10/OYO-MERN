@@ -208,7 +208,7 @@ const Nav1 = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:5500/restaurants") // Replace with actual API URL
+      .get("https://oyo-mern.onrender.com/restaurants") // Replace with actual API URL
       .then((response) => {
         const data = response.data;
 
@@ -232,7 +232,7 @@ const Nav1 = () => {
     setError(null);
 
     axios
-      .get(`http://localhost:5500/getRestaurantsByCity/${city}`) // Replace with actual API
+      .get(`https://oyo-mern.onrender.com/getRestaurantsByCity/${city}`) // Replace with actual API
       .then((response) => {
         setRestaurants(response.data.restaurantList);
         setLoading(false);
@@ -251,7 +251,7 @@ const Nav1 = () => {
     setError(null);
 
     axios
-      .get(`http://localhost:5500/getRestaurantsByCity/${location}`) // Replace with actual API
+      .get(`https://oyo-mern.onrender.com/getRestaurantsByCity/${location}`) // Replace with actual API
       .then((response) => {
         setRestaurants(response.data.restaurantList);
         setLoading(false);

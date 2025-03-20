@@ -39,7 +39,9 @@ class Page extends Component {
   }
 
   componentDidMount() {
-    const restaurants = "http://localhost:5500/restaurants"; 
+    
+
+    const restaurants = `https://oyo-mern.onrender.com/restaurants`; 
 
     axios
       .get(restaurants)
