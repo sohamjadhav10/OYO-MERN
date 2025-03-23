@@ -64,6 +64,6 @@ const restaurantSchema = new mongoose.Schema({
     }
 });
 
-const Restaurant = mongoose.model('Restaurant', restaurantSchema, 'Restaurants'); // Collection name: 'Restaurants'
+const Restaurant = mongoose.model('Oyo', restaurantSchema, 'Restaurants'); // Collection name: 'Restaurants'
 
 module.exports = Restaurant;
