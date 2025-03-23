@@ -90,7 +90,7 @@ const Nav1 = () => {
         {loading && <p className="loading">Loading...</p>}
         {error && <p className="error">{error}</p>}
 
-        Restaurant List
+        
         <ul className="dropdown-menu">
           <b className="pl">Popular Localities</b>
           {restaurants.length > 0 ? (
@@ -114,7 +114,7 @@ const Nav1 = () => {
               href="#"
               role="button"
               aria-expanded="false"
-            >
+               >
               {city}
             </a>
             <ul className="dropdown-menu">

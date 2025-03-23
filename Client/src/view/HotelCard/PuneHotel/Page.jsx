@@ -15,7 +15,7 @@ class Page extends Component {
   componentDidMount() {
     
 
-    const restaurants = `https://oyo-mern.onrender.com/restaurants`; 
+    const restaurants = `https://oyo-mern.onrender.com/getRestaurantsByCity/${this.props.city}`; 
 
     axios
       .get(restaurants)
