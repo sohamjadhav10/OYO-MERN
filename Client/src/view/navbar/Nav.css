@@ -1,0 +1,43 @@
+.nav-link {
+    color: rgba(0, 0, 0, 0.674);
+    }
+.n1{
+    height: 70px;  padding-left:80px;
+     background-color: white; 
+     margin-right: 20px;
+}
+.na1{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    margin-top: 0;
+}
+.cf{
+    height: 70px;
+}
+.imp{
+    width: 80px;
+}
+
+.nb{
+    display: flex; justify-content: space-between; margin: left 100px;
+    gap: 50px;
+}
+.nav11{
+    margin-left: 150px; display: flex; gap: 10px; cursor: pointer;
+}
+.nav22{
+    display: flex; gap: 10px; cursor: pointer;
+}
+.nav33{
+    display: flex; gap: 10px; cursor: pointer;
+}
+.nav44{
+    display: flex; gap: 10px; cursor: pointer;
+}
+.nav55{
+    display: flex; gap: 10px; cursor: pointer;
+}
+.nav66{
+    display: flex; gap: 10px; cursor: pointer; text-decoration: none; color: black;
+}
