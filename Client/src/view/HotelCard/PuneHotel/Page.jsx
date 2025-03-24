@@ -15,7 +15,7 @@ class Page extends Component {
   componentDidMount() {
     
 
-    const restaurants = `https://oyo-mern.onrender.com/getRestaurantsByCity/${this.props.city}`; 
+    const restaurants = `https://oyo-mern.onrender.com/restaurants`; 
 
     axios
       .get(restaurants)
@@ -25,6 +25,9 @@ class Page extends Component {
       .catch((error) => {
         console.error("Error fetching hotels:", error);
       });
+  [this.state.hotels].map((hotel) => {
+    console.log(hotel);
+  });
   }
 
   render() {
